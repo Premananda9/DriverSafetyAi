@@ -1,0 +1,18 @@
+# Build outputs
+build/
+app/build/
+
+# Local configuration
+local.properties
+*.iml
+.idea/
+.gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash/log files (temporary debugging)
+crash*.txt
+log*.txt
+recent_crash.txt
