@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Application Theme -->
+    <style name="Theme.DriverSafetyAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_teal</item>
+        <item name="colorPrimaryVariant">@color/accent_teal_dark</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="colorSecondary">@color/accent_teal</item>
+        <item name="colorOnSecondary">@color/text_on_accent</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.DriverSafetyAI.Dialog</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.DriverSafetyAI.Splash" parent="Theme.DriverSafetyAI">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Moderate Alert Theme (Amber) -->
+    <style name="Theme.DriverSafetyAI.ModerateAlert" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/moderate_accent</item>
+        <item name="android:colorBackground">@color/moderate_bg</item>
+        <item name="android:windowBackground">@color/moderate_bg</item>
+        <item name="colorSurface">@color/moderate_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/moderate_bg</item>
+        <item name="android:navigationBarColor">@color/moderate_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Emergency Alert Theme (Red) -->
+    <style name="Theme.DriverSafetyAI.EmergencyAlert" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/critical_accent</item>
+        <item name="android:colorBackground">@color/critical_bg</item>
+        <item name="android:windowBackground">@color/critical_bg</item>
+        <item name="colorSurface">@color/critical_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/critical_bg</item>
+        <item name="android:navigationBarColor">@color/critical_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="ThemeOverlay.DriverSafetyAI.Dialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/accent_teal</item>
+        <item name="colorSurface">@color/surface_elevated</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/surface_elevated</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.DriverSafetyAI.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_bg</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="rippleColor">@color/accent_teal_alpha</item>
+    </style>
+
+    <!-- Primary Button -->
+    <style name="Widget.DriverSafetyAI.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_teal</item>
+        <item name="android:textColor">@color/text_on_accent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Emergency Button -->
+    <style name="Widget.DriverSafetyAI.Button.Emergency" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/status_critical</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <!-- Outline Button -->
+    <style name="Widget.DriverSafetyAI.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/accent_teal</item>
+        <item name="android:textColor">@color/accent_teal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <!-- BottomNavigationView -->
+    <style name="Widget.DriverSafetyAI.BottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundTint">@color/surface_dark</item>
+        <item name="itemIconTint">@drawable/bottom_nav_icon_tint</item>
+        <item name="itemTextColor">@drawable/bottom_nav_icon_tint</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextAppearance.DriverSafetyAI.H1" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="TextAppearance.DriverSafetyAI.H2" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.DriverSafetyAI.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+</resources>

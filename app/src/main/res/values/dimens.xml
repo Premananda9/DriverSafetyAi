@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_md">14sp</dimen>
+    <dimen name="text_base">16sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_xl">22sp</dimen>
+    <dimen name="text_xxl">28sp</dimen>
+    <dimen name="text_hero">48sp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="btn_height">54dp</dimen>
+    <dimen name="btn_height_large">64dp</dimen>
+    <dimen name="btn_radius">12dp</dimen>
+    <dimen name="btn_emergency_radius">16dp</dimen>
+
+    <!-- Bottom nav -->
+    <dimen name="bottom_nav_height">64dp</dimen>
+
+    <!-- Icons -->
+    <dimen name="icon_sm">20dp</dimen>
+    <dimen name="icon_md">28dp</dimen>
+    <dimen name="icon_lg">48dp</dimen>
+    <dimen name="icon_hero">96dp</dimen>
+
+    <!-- Gauge -->
+    <dimen name="gauge_stroke_width">14dp</dimen>
+</resources>

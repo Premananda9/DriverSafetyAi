@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent_teal">#00D4AA</color>
+    <color name="accent_teal_alpha">#3300D4AA</color>
+    <color name="accent_teal_dark">#00A882</color>
+    <color name="background_dark">#0A0E1A</color>
+    <color name="black">#FF000000</color>
+    <color name="btn_connect">#00D4AA</color>
+    <color name="btn_disabled">#2A3048</color>
+    <color name="btn_emergency">#FF1744</color>
+    <color name="card_bg">#1A2035</color>
+    <color name="critical_accent">#FF1744</color>
+    <color name="critical_bg">#1A0000</color>
+    <color name="critical_surface">#260000</color>
+    <color name="divider">#252D45</color>
+    <color name="moderate_accent">#FFB300</color>
+    <color name="moderate_bg">#1A1200</color>
+    <color name="moderate_surface">#261A00</color>
+    <color name="notification_bg">#0A0E1A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="shimmer_base">#1C2339</color>
+    <color name="shimmer_highlight">#252D45</color>
+    <color name="status_critical">#FF1744</color>
+    <color name="status_critical_alpha">#44FF1744</color>
+    <color name="status_critical_dark">#D50000</color>
+    <color name="status_safe">#00D4AA</color>
+    <color name="status_safe_alpha">#4400D4AA</color>
+    <color name="status_warning">#FFB300</color>
+    <color name="status_warning_alpha">#44FFB300</color>
+    <color name="surface_dark">#131828</color>
+    <color name="surface_elevated">#1C2339</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_hint">#607D8B</color>
+    <color name="text_on_accent">#000000</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="btn_emergency_radius">16dp</dimen>
+    <dimen name="btn_height">54dp</dimen>
+    <dimen name="btn_height_large">64dp</dimen>
+    <dimen name="btn_radius">12dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="gauge_stroke_width">14dp</dimen>
+    <dimen name="icon_hero">96dp</dimen>
+    <dimen name="icon_lg">48dp</dimen>
+    <dimen name="icon_md">28dp</dimen>
+    <dimen name="icon_sm">20dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="text_base">16sp</dimen>
+    <dimen name="text_hero">48sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_md">14sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_xl">22sp</dimen>
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="text_xxl">28sp</dimen>
+    <string name="app_name">Driver Safety AI</string>
+    <string name="auto_call_desc">Automatically call contact on critical alert</string>
+    <string name="auto_call_toggle">Auto-Call Emergency Contact</string>
+    <string name="auto_reconnect">Auto-reconnect</string>
+    <string name="bt_section">Bluetooth Classic</string>
+    <string name="call_contact">📞 Call Emergency Contact</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_music">Choose Music File</string>
+    <string name="close">Close</string>
+    <string name="coffee_maps_query">coffee shops near me</string>
+    <string name="connect_title">Connect to ESP32</string>
+    <string name="connect_wifi">Connect WiFi</string>
+    <string name="connection_mode">Connection Mode</string>
+    <string name="contact_name_hint">Contact Name</string>
+    <string name="contact_phone_hint">Phone Number</string>
+    <string name="critical_message">STOP DRIVING\nIMMEDIATELY!</string>
+    <string name="critical_title">CRITICAL ALERT</string>
+    <string name="current_level">Current Level</string>
+    <string name="dashboard_title">Driver Safety</string>
+    <string name="device_label">Device</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="dismiss">I\'m Alert Now</string>
+    <string name="drowsiness_critical">CRITICAL</string>
+    <string name="drowsiness_moderate">DROWSY</string>
+    <string name="drowsiness_safe">SAFE</string>
+    <string name="emergency_btn">🚨 EMERGENCY</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="error_no_contact">Please set an emergency contact in Settings</string>
+    <string name="error_no_sms_perm">SMS permission not granted</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="last_alert">Last Alert</string>
+    <string name="mode_bluetooth">Bluetooth</string>
+    <string name="mode_websocket">WebSocket</string>
+    <string name="mode_wifi">WiFi</string>
+    <string name="moderate_message">You are feeling drowsy.\nPlease stay alert!</string>
+    <string name="moderate_title">Drowsiness Detected</string>
+    <string name="music_settings">Music Settings</string>
+    <string name="nav_connect">Connect</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+    <string name="no_alerts">No alerts recorded</string>
+    <string name="no_devices">No paired devices found</string>
+    <string name="no_music_selected">Default alert tone</string>
+    <string name="notif_alert_title">Drowsiness Alert</string>
+    <string name="notif_channel_desc">Background monitoring for drowsiness detection</string>
+    <string name="notif_channel_name">Driver Safety Monitor</string>
+    <string name="notif_text">Monitoring drowsiness levels…</string>
+    <string name="notif_title">Driver Safety AI is active</string>
+    <string name="ok">OK</string>
+    <string name="open_coffee">☕ Find Coffee Nearby</string>
+    <string name="open_rest_area">🛑 Find Rest Area</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="perm_bt_rationale">Bluetooth permission needed to connect to ESP32 device</string>
+    <string name="perm_call_rationale">Call permission needed for auto-call emergency contact</string>
+    <string name="perm_location_rationale">Location permission needed for GPS and nearby search</string>
+    <string name="perm_mic_rationale">Microphone needed for voice interaction</string>
+    <string name="perm_sms_rationale">SMS permission needed to send emergency alerts</string>
+    <string name="play_music">🎵 Play Music</string>
+    <string name="readings_label">Readings</string>
+    <string name="rest_maps_query">rest area near me</string>
+    <string name="save">Save</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="scan_bt">Scan Devices</string>
+    <string name="scanning">Scanning…</string>
+    <string name="sensitivity_label">Sensor Sensitivity</string>
+    <string name="sensor_value">Sensor Value</string>
+    <string name="settings_title">Settings</string>
+    <string name="skip">Skip</string>
+    <string name="sms_message">I am driving and feeling extremely sleepy. Please contact me immediately.</string>
+    <string name="sms_sent">Emergency SMS sent</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="stop_alarm">STOP ALARM</string>
+    <string name="suggestion_card">💡 Take a short break or refresh with coffee</string>
+    <string name="threshold_critical_label">Critical Threshold</string>
+    <string name="threshold_moderate_label">Moderate Threshold</string>
+    <string name="tts_critical">Critical drowsiness detected. Please stop and rest immediately.</string>
+    <string name="tts_moderate">You are feeling drowsy. Please stay alert.</string>
+    <string name="uptime_label">Session</string>
+    <string name="voice_desc">Enable AI voice interaction when drowsy</string>
+    <string name="voice_listening">Listening…</string>
+    <string name="voice_q1">Are you okay?</string>
+    <string name="voice_q2">Should I guide you to a rest area?</string>
+    <string name="voice_q3">Say YES to confirm you are stopping.</string>
+    <string name="voice_tap">Tap to speak</string>
+    <string name="voice_toggle">Voice Interaction</string>
+    <string name="whatsapp_sent">WhatsApp message sent</string>
+    <string name="wifi_ip_hint">ESP32 IP Address (e.g. 192.168.1.100)</string>
+    <string name="wifi_port_hint">Port (e.g. 8080)</string>
+    <string name="wifi_section">WiFi / WebSocket</string>
+    <style name="TextAppearance.DriverSafetyAI.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+    <style name="TextAppearance.DriverSafetyAI.H1" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="TextAppearance.DriverSafetyAI.H2" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.DriverSafetyAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_teal</item>
+        <item name="colorPrimaryVariant">@color/accent_teal_dark</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="colorSecondary">@color/accent_teal</item>
+        <item name="colorOnSecondary">@color/text_on_accent</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">false</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.DriverSafetyAI.Dialog</item>
+    </style>
+    <style name="Theme.DriverSafetyAI.EmergencyAlert" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/critical_accent</item>
+        <item name="android:colorBackground">@color/critical_bg</item>
+        <item name="android:windowBackground">@color/critical_bg</item>
+        <item name="colorSurface">@color/critical_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/critical_bg</item>
+        <item name="android:navigationBarColor">@color/critical_bg</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+    </style>
+    <style name="Theme.DriverSafetyAI.ModerateAlert" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/moderate_accent</item>
+        <item name="android:colorBackground">@color/moderate_bg</item>
+        <item name="android:windowBackground">@color/moderate_bg</item>
+        <item name="colorSurface">@color/moderate_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/moderate_bg</item>
+        <item name="android:navigationBarColor">@color/moderate_bg</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+    </style>
+    <style name="Theme.DriverSafetyAI.Splash" parent="Theme.DriverSafetyAI">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ThemeOverlay.DriverSafetyAI.Dialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/accent_teal</item>
+        <item name="colorSurface">@color/surface_elevated</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/surface_elevated</item>
+    </style>
+    <style name="Widget.DriverSafetyAI.BottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundTint">@color/surface_dark</item>
+        <item name="itemIconTint">@drawable/bottom_nav_icon_tint</item>
+        <item name="itemTextColor">@drawable/bottom_nav_icon_tint</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="elevation">8dp</item>
+    </style>
+    <style name="Widget.DriverSafetyAI.Button.Emergency" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/status_critical</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+    <style name="Widget.DriverSafetyAI.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/accent_teal</item>
+        <item name="android:textColor">@color/accent_teal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="Widget.DriverSafetyAI.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_teal</item>
+        <item name="android:textColor">@color/text_on_accent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    <style name="Widget.DriverSafetyAI.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_bg</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="rippleColor">@color/accent_teal_alpha</item>
+    </style>
+</resources>

@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_button_teal.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_button_teal.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\anim_pulse.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\anim\\pulse.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_warning.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_badge_critical.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_badge_critical.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_item_bluetooth_device.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\item_bluetooth_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_shield_car.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_shield_car.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_dot_connected.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_dot_connected.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\anim_blink.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\anim\\blink.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_activity_moderate_alert.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_moderate_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\anim_fade_scale_in.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\anim\\fade_scale_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_bluetooth.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_status_indicator.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_status_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_call.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_activity_emergency_alert.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_emergency_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_fragment_connect.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\fragment_connect.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.driversafety.ai.app-merged_res-52:/layout_fragment_connect.xml.flat",
+        "source": "com.driversafety.ai.app-main-54:/layout/fragment_connect.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bottom_nav_icon_tint.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bottom_nav_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_splash_gradient.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_splash_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_mic.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_mic.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.driversafety.ai.app-merged_res-52:/layout_fragment_dashboard.xml.flat",
+        "source": "com.driversafety.ai.app-main-54:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_dot_disconnected.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_dot_disconnected.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_dot_warning.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_dot_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_badge_warning.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_badge_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_music.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_music.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_item_alert_log.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\item_alert_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_badge_safe.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_badge_safe.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_button_emergency.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_button_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_bg_badge_teal.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\bg_badge_teal.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_critical.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_critical.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-merged_res-52:\\drawable_ic_sms.xml.flat",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\drawable\\ic_sms.xml"
+    }
+]

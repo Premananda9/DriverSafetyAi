@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Driver Safety AI</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_connect">Connect</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Driver Safety</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="drowsiness_safe">SAFE</string>
+    <string name="drowsiness_moderate">DROWSY</string>
+    <string name="drowsiness_critical">CRITICAL</string>
+    <string name="current_level">Current Level</string>
+    <string name="sensor_value">Sensor Value</string>
+    <string name="emergency_btn">🚨 EMERGENCY</string>
+    <string name="last_alert">Last Alert</string>
+    <string name="no_alerts">No alerts recorded</string>
+    <string name="device_label">Device</string>
+    <string name="uptime_label">Session</string>
+    <string name="readings_label">Readings</string>
+
+    <!-- Connectivity -->
+    <string name="connect_title">Connect to ESP32</string>
+    <string name="bt_section">Bluetooth Classic</string>
+    <string name="wifi_section">WiFi / WebSocket</string>
+    <string name="scan_bt">Scan Devices</string>
+    <string name="scanning">Scanning…</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="no_devices">No paired devices found</string>
+    <string name="wifi_ip_hint">ESP32 IP Address (e.g. 192.168.1.100)</string>
+    <string name="wifi_port_hint">Port (e.g. 8080)</string>
+    <string name="connect_wifi">Connect WiFi</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="auto_reconnect">Auto-reconnect</string>
+    <string name="connection_mode">Connection Mode</string>
+    <string name="mode_bluetooth">Bluetooth</string>
+    <string name="mode_wifi">WiFi</string>
+    <string name="mode_websocket">WebSocket</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="contact_name_hint">Contact Name</string>
+    <string name="contact_phone_hint">Phone Number</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="music_settings">Music Settings</string>
+    <string name="choose_music">Choose Music File</string>
+    <string name="no_music_selected">Default alert tone</string>
+    <string name="auto_call_toggle">Auto-Call Emergency Contact</string>
+    <string name="auto_call_desc">Automatically call contact on critical alert</string>
+    <string name="voice_toggle">Voice Interaction</string>
+    <string name="voice_desc">Enable AI voice interaction when drowsy</string>
+    <string name="sensitivity_label">Sensor Sensitivity</string>
+    <string name="threshold_moderate_label">Moderate Threshold</string>
+    <string name="threshold_critical_label">Critical Threshold</string>
+
+    <!-- Alert – Moderate -->
+    <string name="moderate_title">Drowsiness Detected</string>
+    <string name="moderate_message">You are feeling drowsy.\nPlease stay alert!</string>
+    <string name="tts_moderate">You are feeling drowsy. Please stay alert.</string>
+    <string name="suggestion_card">💡 Take a short break or refresh with coffee</string>
+    <string name="open_coffee">☕ Find Coffee Nearby</string>
+    <string name="play_music">🎵 Play Music</string>
+    <string name="dismiss">I\'m Alert Now</string>
+
+    <!-- Alert – Critical -->
+    <string name="critical_title">CRITICAL ALERT</string>
+    <string name="critical_message">STOP DRIVING\nIMMEDIATELY!</string>
+    <string name="tts_critical">Critical drowsiness detected. Please stop and rest immediately.</string>
+    <string name="open_rest_area">🛑 Find Rest Area</string>
+    <string name="sms_message">I am driving and feeling extremely sleepy. Please contact me immediately.</string>
+    <string name="call_contact">📞 Call Emergency Contact</string>
+    <string name="stop_alarm">STOP ALARM</string>
+    <string name="sms_sent">Emergency SMS sent</string>
+    <string name="whatsapp_sent">WhatsApp message sent</string>
+
+    <!-- Voice Interaction -->
+    <string name="voice_q1">Are you okay?</string>
+    <string name="voice_q2">Should I guide you to a rest area?</string>
+    <string name="voice_q3">Say YES to confirm you are stopping.</string>
+    <string name="voice_listening">Listening…</string>
+    <string name="voice_tap">Tap to speak</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Driver Safety Monitor</string>
+    <string name="notif_channel_desc">Background monitoring for drowsiness detection</string>
+    <string name="notif_title">Driver Safety AI is active</string>
+    <string name="notif_text">Monitoring drowsiness levels…</string>
+    <string name="notif_alert_title">Drowsiness Alert</string>
+
+    <!-- Permissions -->
+    <string name="perm_bt_rationale">Bluetooth permission needed to connect to ESP32 device</string>
+    <string name="perm_location_rationale">Location permission needed for GPS and nearby search</string>
+    <string name="perm_sms_rationale">SMS permission needed to send emergency alerts</string>
+    <string name="perm_call_rationale">Call permission needed for auto-call emergency contact</string>
+    <string name="perm_mic_rationale">Microphone needed for voice interaction</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="skip">Skip</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="error_no_contact">Please set an emergency contact in Settings</string>
+    <string name="error_no_sms_perm">SMS permission not granted</string>
+    <string name="coffee_maps_query">coffee shops near me</string>
+    <string name="rest_maps_query">rest area near me</string>
+</resources>

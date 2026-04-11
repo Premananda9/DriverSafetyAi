@@ -1,0 +1,127 @@
+﻿--------- beginning of crash
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: FATAL EXCEPTION: pool-3-thread-1
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: Process: com.driversafety.ai, PID: 16028
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Landroidx/concurrent/futures/AbstractResolvableFuture;
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:577)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:515)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:479)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer.lambda$writeInBackground$2(ProfileInstallerInitializer.java:145)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer$$ExternalSyntheticLambda2.run(Unknown Source:2)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1564)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: androidx.concurrent.futures.AbstractResolvableFuture
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1281)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	... 8 more
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/common/util/concurrent/ListenableFuture;
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	... 8 more
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.common.util.concurrent.ListenableFuture" on path: DexPathList[[dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes10.dex", dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes5.dex", zip file "/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/base.apk"],nativeLibraryDirectories=[/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/lib/arm64, /system/lib64, /system_ext/lib64]]
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 12:26:32.806 16028 18529 E AndroidRuntime: 	... 8 more
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: FATAL EXCEPTION: pool-3-thread-1
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: Process: com.driversafety.ai, PID: 21944
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Landroidx/concurrent/futures/AbstractResolvableFuture;
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:577)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:515)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:479)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer.lambda$writeInBackground$2(ProfileInstallerInitializer.java:145)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer$$ExternalSyntheticLambda2.run(Unknown Source:2)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1564)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: androidx.concurrent.futures.AbstractResolvableFuture
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1281)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	... 8 more
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/common/util/concurrent/ListenableFuture;
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	... 8 more
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.common.util.concurrent.ListenableFuture" on path: DexPathList[[dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes10.dex", dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes5.dex", zip file "/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/base.apk"],nativeLibraryDirectories=[/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/lib/arm64, /system/lib64, /system_ext/lib64]]
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 12:27:17.714 21944 23456 E AndroidRuntime: 	... 8 more
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: FATAL EXCEPTION: ARouter task pool No.1, thread No.1
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: Process: com.realme.link:link.monitor, PID: 17722
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: java.util.ConcurrentModificationException
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: 	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1522)
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: 	at java.util.TreeMap$EntryIterator.next(TreeMap.java:1558)
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: 	at java.util.TreeMap$EntryIterator.next(TreeMap.java:1553)
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: 	at com.alibaba.android.arouter.core.InterceptorServiceImpl$3.run(InterceptorServiceImpl.java:2)
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 13:04:49.472 17722 17749 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1564)
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: FATAL EXCEPTION: ARouter task pool No.1, thread No.1
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: Process: com.realme.link:link.monitor, PID: 1411
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: java.util.ConcurrentModificationException
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: 	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1522)
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: 	at java.util.TreeMap$EntryIterator.next(TreeMap.java:1558)
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: 	at java.util.TreeMap$EntryIterator.next(TreeMap.java:1553)
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: 	at com.alibaba.android.arouter.core.InterceptorServiceImpl$3.run(InterceptorServiceImpl.java:2)
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 15:20:17.939  1411  1432 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1564)
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: FATAL EXCEPTION: ARouter task pool No.1, thread No.1
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: Process: com.realme.link:link.monitor, PID: 13356
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: java.util.ConcurrentModificationException
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: 	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1522)
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: 	at java.util.TreeMap$EntryIterator.next(TreeMap.java:1558)
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: 	at java.util.TreeMap$EntryIterator.next(TreeMap.java:1553)
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: 	at com.alibaba.android.arouter.core.InterceptorServiceImpl$3.run(InterceptorServiceImpl.java:2)
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 15:37:49.580 13356 13376 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1564)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: FATAL EXCEPTION: pool-4-thread-1
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: Process: com.driversafety.ai, PID: 26248
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Landroidx/concurrent/futures/AbstractResolvableFuture;
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:577)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:515)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:479)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer.lambda$writeInBackground$2(ProfileInstallerInitializer.java:145)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer$$ExternalSyntheticLambda2.run(Unknown Source:2)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1564)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: androidx.concurrent.futures.AbstractResolvableFuture
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1281)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	... 8 more
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/common/util/concurrent/ListenableFuture;
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	... 8 more
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.common.util.concurrent.ListenableFuture" on path: DexPathList[[dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes10.dex", dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes5.dex", zip file "/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/base.apk"],nativeLibraryDirectories=[/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/lib/arm64, /system/lib64, /system_ext/lib64]]
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 16:01:57.670 26248 26356 E AndroidRuntime: 	... 8 more
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: FATAL EXCEPTION: pool-3-thread-1
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: Process: com.driversafety.ai, PID: 26538
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Landroidx/concurrent/futures/AbstractResolvableFuture;
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:577)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:515)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstaller.writeProfile(ProfileInstaller.java:479)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer.lambda$writeInBackground$2(ProfileInstallerInitializer.java:145)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at androidx.profileinstaller.ProfileInstallerInitializer$$ExternalSyntheticLambda2.run(Unknown Source:2)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1564)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: androidx.concurrent.futures.AbstractResolvableFuture
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1281)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	... 8 more
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/common/util/concurrent/ListenableFuture;
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	... 8 more
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.common.util.concurrent.ListenableFuture" on path: DexPathList[[dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes10.dex", dex file "/data/data/com.driversafety.ai/code_cache/.overlay/base.apk/classes5.dex", zip file "/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/base.apk"],nativeLibraryDirectories=[/data/app/~~GEppLEWqoLEBpkYQzYacxw==/com.driversafety.ai-onQR_m-46AwAe87hajPn-w==/lib/arm64, /system/lib64, /system_ext/lib64]]
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+04-05 16:02:05.707 26538 26569 E AndroidRuntime: 	... 8 more

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/critical_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <!-- Pulsing siren icon -->
+        <ImageView
+            android:id="@+id/ivCriticalIcon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_critical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- ⚠ CRITICAL BANNER -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠ CRITICAL ALERT ⚠"
+            android:textColor="@color/critical_accent"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOP DRIVING\nIMMEDIATELY!"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Status row (sent indicators) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvSmsSent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📱 SMS"
+                android:textColor="@color/text_hint"
+                android:textSize="12sp"
+                android:background="@color/critical_surface"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp" />
+        </LinearLayout>
+
+        <!-- Find Rest Area -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOpenRestArea"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="🛑   Find Rest Area Nearby"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="12dp"
+            app:backgroundTint="@color/critical_accent"
+            app:cornerRadius="14dp" />
+
+        <!-- Call Emergency Contact -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCallContact"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="📞   Call Emergency Contact"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="@color/critical_surface"
+            app:strokeColor="@color/critical_accent"
+            app:strokeWidth="2dp"
+            app:cornerRadius="14dp" />
+
+        <!-- ===== COGNITIVE ENGAGEMENT PANEL ===== -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCognitiveGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/critical_surface"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KEEP AWAKE CHALLENGE"
+                    android:textColor="@color/critical_accent"
+                    android:textSize="11sp"
+                    android:letterSpacing="0.12"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/tvGameQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Loading challenge..."
+                    android:textColor="@color/text_primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp" />
+
+                <EditText
+                    android:id="@+id/etGameAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Type your answer"
+                    android:inputType="text"
+                    android:imeOptions="actionDone"
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/text_hint"
+                    android:background="#22FFFFFF"
+                    android:paddingHorizontal="16dp"
+                    android:layout_marginBottom="12dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnGameSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Submit Answer"
+                    app:backgroundTint="@color/critical_accent"
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold"
+                    app:cornerRadius="12dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- STOP ALARM Button (large, prominent) -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStopAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="🔇   STOP ALARM"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:letterSpacing="0.05"
+            android:layout_marginBottom="12dp"
+            app:backgroundTint="@color/surface_elevated"
+            app:strokeColor="@color/text_secondary"
+            app:strokeWidth="2dp"
+            app:cornerRadius="18dp" />
+
+        <!-- Close (only after alarm stopped) -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCloseCritical"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Close Alert"
+            android:textSize="15sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="@android:color/transparent"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp"
+            app:cornerRadius="12dp"
+            android:enabled="false"
+            android:alpha="0.5" />
+
+    </LinearLayout>
+</ScrollView>

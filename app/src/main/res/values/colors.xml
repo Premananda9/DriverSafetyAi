@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ========== BACKGROUND / SURFACE ========== -->
+    <color name="background_dark">#0A0E1A</color>
+    <color name="surface_dark">#131828</color>
+    <color name="surface_elevated">#1C2339</color>
+    <color name="card_bg">#1A2035</color>
+    <color name="divider">#252D45</color>
+
+    <!-- ========== PRIMARY ACCENT ========== -->
+    <color name="accent_teal">#00D4AA</color>
+    <color name="accent_teal_dark">#00A882</color>
+    <color name="accent_teal_alpha">#3300D4AA</color>
+
+    <!-- ========== STATUS COLORS ========== -->
+    <color name="status_safe">#00D4AA</color>
+    <color name="status_warning">#FFB300</color>
+    <color name="status_critical">#FF1744</color>
+    <color name="status_critical_dark">#D50000</color>
+    <color name="status_critical_alpha">#44FF1744</color>
+    <color name="status_warning_alpha">#44FFB300</color>
+    <color name="status_safe_alpha">#4400D4AA</color>
+
+    <!-- ========== TEXT ========== -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="text_hint">#607D8B</color>
+    <color name="text_on_accent">#000000</color>
+
+    <!-- ========== BUTTONS ========== -->
+    <color name="btn_emergency">#FF1744</color>
+    <color name="btn_connect">#00D4AA</color>
+    <color name="btn_disabled">#2A3048</color>
+
+    <!-- ========== NOTIFICATION BAR ========== -->
+    <color name="notification_bg">#0A0E1A</color>
+
+    <!-- ========== MODERATE ALERT THEME ========== -->
+    <color name="moderate_bg">#1A1200</color>
+    <color name="moderate_surface">#261A00</color>
+    <color name="moderate_accent">#FFB300</color>
+
+    <!-- ========== CRITICAL ALERT THEME ========== -->
+    <color name="critical_bg">#1A0000</color>
+    <color name="critical_surface">#260000</color>
+    <color name="critical_accent">#FF1744</color>
+
+    <!-- ========== SHIMMER ========== -->
+    <color name="shimmer_base">#1C2339</color>
+    <color name="shimmer_highlight">#252D45</color>
+
+    <!-- Legacy (required by some system components) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

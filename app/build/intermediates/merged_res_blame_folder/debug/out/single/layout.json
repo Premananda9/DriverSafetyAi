@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\item_alert_log.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\item_alert_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\fragment_connect.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\fragment_connect.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\activity_emergency_alert.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_emergency_alert.xml"
+    },
+    {
+        "merged": "com.driversafety.ai.app-mergeDebugResources-51:/layout/fragment_dashboard.xml",
+        "source": "com.driversafety.ai.app-main-54:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\item_bluetooth_device.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\item_bluetooth_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\activity_moderate_alert.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_moderate_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-mergeDebugResources-51:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\p9047\\.gradle\\daemon\\8.4\\com.driversafety.ai.app-main-54:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.driversafety.ai.app-mergeDebugResources-51:/layout/fragment_connect.xml",
+        "source": "com.driversafety.ai.app-main-54:/layout/fragment_connect.xml"
+    }
+]

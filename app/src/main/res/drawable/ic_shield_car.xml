@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shield + Car combined icon for Driver Safety AI -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Shield background -->
+    <path
+        android:fillColor="#1A2035"
+        android:pathData="M60,8 L20,28 L20,64 C20,86 60,112 60,112 C60,112 100,86 100,64 L100,28 Z" />
+
+    <!-- Shield border glow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4AA"
+        android:strokeWidth="3"
+        android:pathData="M60,12 L24,30 L24,64 C24,84 60,108 60,108 C60,108 96,84 96,64 L96,30 Z" />
+
+    <!-- Car body -->
+    <path
+        android:fillColor="#00D4AA"
+        android:pathData="M38,72 L38,66 L44,56 L76,56 L82,66 L82,72 L80,72 L80,76 L72,76 L72,72 L48,72 L48,76 L40,76 L40,72 Z" />
+
+    <!-- Windshield -->
+    <path
+        android:fillColor="#0A1628"
+        android:pathData="M46,66 L50,58 L70,58 L74,66 Z" />
+
+    <!-- Left wheel -->
+    <path
+        android:fillColor="#0A1628"
+        android:pathData="M44,72 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Right wheel -->
+    <path
+        android:fillColor="#0A1628"
+        android:pathData="M76,72 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Headlights -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M38,68 L34,68 L34,72 L38,72 Z" />
+    <path
+        android:fillColor="#FF4444"
+        android:pathData="M82,68 L86,68 L86,72 L82,72 Z" />
+</vector>

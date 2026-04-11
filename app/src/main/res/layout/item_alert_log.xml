@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="8dp">
+
+    <!-- Level dot -->
+    <View
+        android:id="@+id/viewAlertDot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/bg_dot_warning"
+        android:layout_marginEnd="10dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAlertType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moderate Alert"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAlertValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value: 2345"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAlertTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:01"
+        android:textColor="@color/text_hint"
+        android:textSize="11sp" />
+</LinearLayout>

@@ -1,0 +1,360 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.driversafety.ai"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- ==================== BLUETOOTH ==================== -->
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:7:5-74
+13-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:7:22-71
+14    <!-- Android 12+ -->
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+16-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:10:5-73
+16-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:10:22-70
+17
+18    <!-- ==================== LOCATION ==================== -->
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:14:5-81
+20-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:14:22-78
+21
+22    <!-- ==================== NETWORK ==================== -->
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:17:5-67
+23-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:17:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:18:5-79
+24-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:18:22-76
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:19:5-76
+25-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:19:22-73
+26
+27    <!-- ==================== COMMUNICATION ==================== -->
+28    <uses-permission android:name="android.permission.SEND_SMS" />
+28-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:22:5-67
+28-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:22:22-64
+29    <uses-permission android:name="android.permission.CALL_PHONE" />
+29-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:23:5-69
+29-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:23:22-66
+30
+31    <!-- ==================== AUDIO/MEDIA ==================== -->
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:26:5-71
+32-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:26:22-68
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:27:5-66
+33-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:27:22-63
+34    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+34-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:28:5-75
+34-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:28:22-72
+35    <uses-permission
+35-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:29:5-30:38
+36        android:name="android.permission.READ_EXTERNAL_STORAGE"
+36-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:29:22-77
+37        android:maxSdkVersion="32" />
+37-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:30:9-35
+38
+39    <!-- ==================== FOREGROUND SERVICE ==================== -->
+40    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+40-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:33:5-77
+40-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:33:22-74
+41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+41-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:34:5-94
+41-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:34:22-91
+42    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+42-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:35:5-77
+42-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:35:22-74
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:36:5-68
+43-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:36:22-65
+44    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+44-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:37:5-81
+44-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:37:22-78
+45
+46    <uses-feature
+46-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:39:5-41:36
+47        android:name="android.hardware.bluetooth"
+47-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:40:9-50
+48        android:required="false" />
+48-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:41:9-33
+49    <uses-feature
+49-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:42:5-44:36
+50        android:name="android.hardware.location.gps"
+50-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:43:9-53
+51        android:required="false" />
+51-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:44:9-33
+52    <uses-feature
+52-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+53        android:glEsVersion="0x00020000"
+53-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+54        android:required="true" />
+54-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+55
+56    <queries>
+56-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+57
+58        <!-- Needs to be explicitly declared on Android R+ -->
+59        <package android:name="com.google.android.apps.maps" />
+59-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+59-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+60    </queries>
+61
+62    <permission
+62-->[androidx.core:core:1.12.0] C:\Users\p9047\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+63        android:name="com.driversafety.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+63-->[androidx.core:core:1.12.0] C:\Users\p9047\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+64        android:protectionLevel="signature" />
+64-->[androidx.core:core:1.12.0] C:\Users\p9047\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+65
+66    <uses-permission android:name="com.driversafety.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+66-->[androidx.core:core:1.12.0] C:\Users\p9047\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+66-->[androidx.core:core:1.12.0] C:\Users\p9047\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+67
+68    <application
+68-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:46:5-119:19
+69        android:name="com.driversafety.ai.DriverSafetyApp"
+69-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:47:9-40
+70        android:allowBackup="true"
+70-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:48:9-35
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.12.0] C:\Users\p9047\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+72        android:dataExtractionRules="@xml/data_extraction_rules"
+72-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:49:9-65
+73        android:debuggable="true"
+74        android:extractNativeLibs="false"
+75        android:fullBackupContent="@xml/backup_rules"
+75-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:50:9-54
+76        android:icon="@mipmap/ic_launcher"
+76-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:51:9-43
+77        android:label="@string/app_name"
+77-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:53:9-41
+78        android:largeHeap="true"
+78-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:56:9-33
+79        android:roundIcon="@mipmap/ic_launcher_round"
+79-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:52:9-54
+80        android:supportsRtl="true"
+80-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:54:9-35
+81        android:theme="@style/Theme.DriverSafetyAI" >
+81-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:55:9-52
+82
+83        <!-- Google Maps API Key -->
+84        <meta-data
+85            android:name="com.google.android.geo.API_KEY"
+85-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:61:13-58
+86            android:value="AIzaSyAYGZB0QDPJk0-pS2HbgySPRPt0BXFTpo4" />
+86-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:62:13-42
+87
+88        <!-- ==================== ACTIVITIES ==================== -->
+89        <activity
+89-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:65:9-74:20
+90            android:name="com.driversafety.ai.SplashActivity"
+90-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:66:13-43
+91            android:exported="true"
+91-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:67:13-36
+92            android:screenOrientation="portrait"
+92-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:69:13-49
+93            android:theme="@style/Theme.DriverSafetyAI.Splash" >
+93-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:68:13-63
+94            <intent-filter>
+94-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:70:13-73:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:71:17-69
+95-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:71:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:72:17-77
+97-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:72:27-74
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:76:9-80:58
+101            android:name="com.driversafety.ai.MainActivity"
+101-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:77:13-41
+102            android:exported="false"
+102-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:78:13-37
+103            android:screenOrientation="portrait"
+103-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:79:13-49
+104            android:windowSoftInputMode="adjustResize" />
+104-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:80:13-55
+105        <activity
+105-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:82:9-88:73
+106            android:name="com.driversafety.ai.ModerateAlertActivity"
+106-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:83:13-50
+107            android:exported="false"
+107-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:84:13-37
+108            android:screenOrientation="portrait"
+108-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:85:13-49
+109            android:showOnLockScreen="true"
+109-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:86:13-44
+110            android:theme="@style/Theme.DriverSafetyAI.ModerateAlert"
+110-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:88:13-70
+111            android:turnScreenOn="true" />
+111-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:87:13-40
+112        <activity
+112-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:90:9-96:74
+113            android:name="com.driversafety.ai.EmergencyAlertActivity"
+113-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:91:13-51
+114            android:exported="false"
+114-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:92:13-37
+115            android:screenOrientation="portrait"
+115-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:93:13-49
+116            android:showOnLockScreen="true"
+116-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:94:13-44
+117            android:theme="@style/Theme.DriverSafetyAI.EmergencyAlert"
+117-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:96:13-71
+118            android:turnScreenOn="true" />
+118-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:95:13-40
+119        <activity
+119-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:98:9-101:52
+120            android:name="com.driversafety.ai.SettingsActivity"
+120-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:99:13-45
+121            android:exported="false"
+121-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:100:13-37
+122            android:screenOrientation="portrait" />
+122-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:101:13-49
+123
+124        <!-- ==================== SERVICES ==================== -->
+125        <service
+125-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:104:9-108:72
+126            android:name="com.driversafety.ai.service.ForegroundMonitorService"
+126-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:105:13-61
+127            android:enabled="true"
+127-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:106:13-35
+128            android:exported="false"
+128-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:107:13-37
+129            android:foregroundServiceType="connectedDevice|location" />
+129-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:108:13-69
+130
+131        <!-- ==================== RECEIVERS ==================== -->
+132        <receiver
+132-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:111:9-117:20
+133            android:name="com.driversafety.ai.receiver.BootReceiver"
+133-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:112:13-50
+134            android:exported="true" >
+134-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:113:13-36
+135            <intent-filter>
+135-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:114:13-116:29
+136                <action android:name="android.intent.action.BOOT_COMPLETED" />
+136-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:115:17-79
+136-->C:\Users\p9047\Downloads\Smart\Smart\DriversafetyAI\app\src\main\AndroidManifest.xml:115:25-76
+137            </intent-filter>
+138        </receiver>
+139
+140        <!-- Needs to be explicitly declared on P+ -->
+141        <uses-library
+141-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+142            android:name="org.apache.http.legacy"
+142-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+143            android:required="false" />
+143-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\p9047\.gradle\caches\transforms-3\5035e296624f436f8496c6900408d8a7\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+144
+145        <activity
+145-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\p9047\.gradle\caches\transforms-3\d556368618b3451883195860ed939556\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+146            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+146-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\p9047\.gradle\caches\transforms-3\d556368618b3451883195860ed939556\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\p9047\.gradle\caches\transforms-3\d556368618b3451883195860ed939556\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\p9047\.gradle\caches\transforms-3\d556368618b3451883195860ed939556\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\p9047\.gradle\caches\transforms-3\74f710e7fa1401f7d91d382101ce8ba8\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\p9047\.gradle\caches\transforms-3\74f710e7fa1401f7d91d382101ce8ba8\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\p9047\.gradle\caches\transforms-3\74f710e7fa1401f7d91d382101ce8ba8\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+153
+154        <provider
+154-->[androidx.emoji2:emoji2:1.2.0] C:\Users\p9047\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+155            android:name="androidx.startup.InitializationProvider"
+155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\p9047\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+156            android:authorities="com.driversafety.ai.androidx-startup"
+156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\p9047\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+157            android:exported="false" >
+157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\p9047\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+158            <meta-data
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\p9047\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+159                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\p9047\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+160                android:value="androidx.startup" />
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\p9047\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+161            <meta-data
+161-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\p9047\.gradle\caches\transforms-3\46eea9eff17ad561ab19765e17354f70\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+162                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+162-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\p9047\.gradle\caches\transforms-3\46eea9eff17ad561ab19765e17354f70\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+163                android:value="androidx.startup" />
+163-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\p9047\.gradle\caches\transforms-3\46eea9eff17ad561ab19765e17354f70\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+164            <meta-data
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+165                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+166                android:value="androidx.startup" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+167        </provider>
+168
+169        <uses-library
+169-->[androidx.window:window:1.0.0] C:\Users\p9047\.gradle\caches\transforms-3\a0cfd5d38e173ce81d4a85d58b83fb43\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+170            android:name="androidx.window.extensions"
+170-->[androidx.window:window:1.0.0] C:\Users\p9047\.gradle\caches\transforms-3\a0cfd5d38e173ce81d4a85d58b83fb43\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+171            android:required="false" />
+171-->[androidx.window:window:1.0.0] C:\Users\p9047\.gradle\caches\transforms-3\a0cfd5d38e173ce81d4a85d58b83fb43\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+172        <uses-library
+172-->[androidx.window:window:1.0.0] C:\Users\p9047\.gradle\caches\transforms-3\a0cfd5d38e173ce81d4a85d58b83fb43\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+173            android:name="androidx.window.sidecar"
+173-->[androidx.window:window:1.0.0] C:\Users\p9047\.gradle\caches\transforms-3\a0cfd5d38e173ce81d4a85d58b83fb43\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+174            android:required="false" />
+174-->[androidx.window:window:1.0.0] C:\Users\p9047\.gradle\caches\transforms-3\a0cfd5d38e173ce81d4a85d58b83fb43\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+175
+176        <receiver
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+177            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+178            android:directBootAware="false"
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+179            android:enabled="true"
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+180            android:exported="true"
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+181            android:permission="android.permission.DUMP" >
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+182            <intent-filter>
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+183                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+184            </intent-filter>
+185            <intent-filter>
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+186                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+187            </intent-filter>
+188            <intent-filter>
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+189                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+190            </intent-filter>
+191            <intent-filter>
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+192                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\p9047\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+193            </intent-filter>
+194        </receiver>
+195    </application>
+196
+197</manifest>
